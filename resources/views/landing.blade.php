@@ -34,7 +34,7 @@
                                 <pre>Multiplos de 3 y 5</pre>                            
                             </div>
                             <div class="col-lg-4 d-flex justify-content-center align-items-center flex-column">
-                                <small>for <strong>practice</strong></small>
+                                <small>for <strong>SmartJob</strong></small>
                             </div>
                         </div>
                         <div class="container">

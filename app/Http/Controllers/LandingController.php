@@ -13,18 +13,18 @@ class LandingController extends Controller
         {
             if(is_int($i/3) && is_int($i/5))
             {                
-                $list[$i] = ' 3 y de 5';
+                $list[$i] = 'Linianos';
                 continue;
             }
     
             switch (true) 
             {
                 case is_int($i/3):
-                    $list[$i] = 'De 3';
+                    $list[$i] = 'Linio';
                     break;
 
                 case is_int($i/5):
-                    $list[$i] ='De 5';
+                    $list[$i] ='IT';
                     break; 
 
                 default:
