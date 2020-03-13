@@ -1,0 +1,39 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class LandingController extends Controller
+{
+    public function FillArray() {
+        $list=[];                        
+
+        for ($i=1; $i <= 100; $i++)
+        {
+            if(is_int($i/3) && is_int($i/5))
+            {                
+                $list[$i] = ' 3 y de 5';
+                continue;
+            }
+    
+            switch (true) 
+            {
+                case is_int($i/3):
+                    $list[$i] = 'De 3';
+                    break;
+
+                case is_int($i/5):
+                    $list[$i] ='De 5';
+                    break; 
+
+                default:
+                $list[$i] = $i;
+                    break;
+            }        
+        }             
+        return view('landing', compact('list'));          
+       
+    }
+
+}
