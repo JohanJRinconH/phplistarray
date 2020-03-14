@@ -23,7 +23,7 @@ class LandingController extends Controller
                     $list[$i] = 'Linio';
                     break;
 
-                case $i % 3:
+                case $i % 5:
                     $list[$i] ='IT';
                     break; 
 
