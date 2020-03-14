@@ -28,13 +28,13 @@
                                 <small>Desarrollador Web</small>
                             </div>
                             <div class="col-lg-4">
-                                <h1>LISTAR TEST</h1>
-                                <pre class="mb-0">Multiplos de 3</pre>
-                                <pre class="mb-0">Multiplos de 5</pre>
-                                <pre>Multiplos de 3 y 5</pre>                            
+                                <h1>LISTA</h1>
+                                <pre class="mb-0">Multiplos de 3 (Linio)</pre>
+                                <pre class="mb-0">Multiplos de 5 (IT)</pre>
+                                <pre>Multiplos de 3 y 5 (Linianos)</pre>                            
                             </div>
                             <div class="col-lg-4 d-flex justify-content-center align-items-center flex-column">
-                                <small>for <strong>practice</strong></small>
+                                <small>for <strong>SmartJob</strong></small>
                             </div>
                         </div>
                         <div class="container">

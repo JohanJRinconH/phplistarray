@@ -11,20 +11,20 @@ class LandingController extends Controller
 
         for ($i=1; $i <= 100; $i++)
         {
-            if(is_int($i/3) && is_int($i/5))
+            if($i % 3 == 0 && $i % 5 == 0)
             {                
-                $list[$i] = ' 3 y de 5';
+                $list[$i] = 'Linianos';
                 continue;
             }
     
-            switch (true) 
+            switch (0) 
             {
-                case is_int($i/3):
-                    $list[$i] = 'De 3';
+                case $i % 3:
+                    $list[$i] = 'Linio';
                     break;
 
-                case is_int($i/5):
-                    $list[$i] ='De 5';
+                case $i % 3:
+                    $list[$i] ='IT';
                     break; 
 
                 default:
