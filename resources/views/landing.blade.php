@@ -17,7 +17,7 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     </head>
-    <body>
+    <body>  
         <div class="container d-flex justify-content-center align-items-center vh-100">
             <div class="row">
                 

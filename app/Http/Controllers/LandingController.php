@@ -13,27 +13,26 @@ class LandingController extends Controller
         {
             if($i % 3 === 0 && $i % 5 === 0)
             {                
-                $list[$i] = 'Linianos';
+                $list[] = 'Linianos';
                 continue;
             }
     
             switch (0) 
             {
                 case $i % 3:
-                    $list[$i] = 'Linio';
+                    $list[] = 'Linio';
                     break;
 
                 case $i % 5:
-                    $list[$i] ='IT';
+                    $list[] ='IT';
                     break; 
 
                 default:
-                $list[$i] = $i;
+                $list[] = $i;
                     break;
             }        
-        }             
-        return view('landing', compact('list'));          
-       
+        }
+        return view('landing', compact('list')); 
     }
 
 }
